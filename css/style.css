@@ -7,11 +7,15 @@ menu {
 }
 
 
+/* HEADER */
+
+
+
 
 /* DEBUG */
 
 .debug .container-lg{
-    border: 2px solid green;
+    border: 2px solid black;
     padding: 20px;
 }
 
@@ -19,7 +23,10 @@ menu {
     border: 2px solid pink;
 }
 
-.debug header li,
+.debug header li{
+    border: 4px solid black;
+}
+
 .debug header .col-3{
-    border: 2px solid black;
+    border: 4px solid green;
 }
