@@ -1,0 +1,25 @@
+/* RESET */
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+
+
+/* DEBUG */
+
+.debug .container-lg{
+    border: 2px solid green;
+    padding: 20px;
+}
+
+.debug .col{
+    border: 2px solid pink;
+}
+
+.debug header li,
+.debug header .col-3{
+    border: 2px solid black;
+}
