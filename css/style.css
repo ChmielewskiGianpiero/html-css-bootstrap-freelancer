@@ -7,20 +7,27 @@ menu {
 }
 
 
-/* HEADER */
+/* HERO */
+
+.container-hero{
+    margin: 0 auto;
+    max-width: 400px;
+}
 
 
 
 
 /* DEBUG */
 
-.debug .container-lg{
+.debug .container-lg,
+.debug .container-sm,
+.debug .container-md{
     border: 2px solid black;
     padding: 20px;
 }
 
-.debug .col{
-    border: 2px solid pink;
+.debug [class^='col-']{
+    border: 2px solid red;
 }
 
 .debug header li{
@@ -30,3 +37,11 @@ menu {
 .debug header .col-3{
     border: 4px solid green;
 }
+
+.debug header .col-sm-6,
+.debug header .col-md-6{
+    border: 4px solid green;
+}
+
+
+.debug main [class^='col-']
