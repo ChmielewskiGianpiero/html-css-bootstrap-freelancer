@@ -21,6 +21,11 @@ img{
     width: 100%;
 }
 
+a:hover{
+    color: var(--light);
+}
+
+
 
 /* PALETTE COLOR */
 
@@ -143,6 +148,18 @@ img{
 
 .main-footer{
     background-color: var(--dark-blue);
+}
+
+.header-footer i{
+    border: 1px solid var(--light);
+    border-radius: 999px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.ms-color-text{
+    color: var(--light-green);
 }
 
 
