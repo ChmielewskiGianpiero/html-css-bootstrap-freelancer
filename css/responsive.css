@@ -17,8 +17,24 @@
 @media (min-width: 1400px) { ... }
 
 
-/* HEADER RESPONSIVE */
+/* HERO RESPONSIVE */
 
-@media (min-width: 576px) {
-    .container
+@media (min-width: 768px) {
+    .ms-img-hero{
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    .ms-img-hero{
+        max-width: 15%;
+    }
+
+    .star-icon-light:before{
+        width: 10%;
+    }
+
+    .star-icon-light:after{
+        width: 10%;
+    }
 }

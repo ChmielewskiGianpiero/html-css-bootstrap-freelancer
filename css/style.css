@@ -17,6 +17,7 @@ a{
     color: currentColor;
 }
 
+
 /* PALETTE COLOR */
 
 :root {
@@ -26,6 +27,7 @@ a{
     --light-green: #1ABC9C;
     --grey: #707579;
 }
+
 
 
 /* HEADER */
@@ -39,11 +41,38 @@ a{
     color: var(--grey) ;
 }
 
+
+
 /* HERO */
 
 .hero{
     background-color: var(--light-green);
+    color: var(--light);
 }
+
+.ms-img-hero{
+    max-width: 50%;
+}
+
+.star-icon-light:before{
+    content: "";
+    border: 1px solid var(--light);
+    width: 15%;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+.star-icon-light:after{
+    content: "";
+    border: 1px solid var(--light);
+    width: 15%;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+
 
 /* ABOUT SECTION */
 
