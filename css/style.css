@@ -108,6 +108,29 @@ img{
     background-color: var(--light-green);
 }
 
+.ms-download-button{
+    border: 1px solid var(--light);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+
+/* CONTACT SECTION */
+
+.ms-container-md{
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.ms-button-contact{
+    max-width: 12%;
+    line-height: 35px;
+    background-color: var(--light-green);
+    color: var(--light);
+    border-radius: 6px;
+    border: 1px solid var(--light);
+}
+
 
 /* INFO SECTION */
 
@@ -130,12 +153,12 @@ img{
 }
 
 .debug [class^='col-']{
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 
 /* .debug header [class^='col-'], */
 .debug .header-footer [class^='col-'],
 .debug .main-footer [class^='col-']{
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }

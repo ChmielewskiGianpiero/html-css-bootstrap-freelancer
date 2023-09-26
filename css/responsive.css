@@ -48,3 +48,11 @@
 }
 
 
+/* CONTACT RESPONSIVE */
+
+@media (min-width: 768px) {
+    .ms-container-md{
+        max-width: 50%;
+    }
+}
+
