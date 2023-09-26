@@ -54,14 +54,14 @@ a{
 
 /* INFO SECTION */
 
-.info-section{
+.header-footer{
     background-color: var(--blue);
 }
 
 
 /* FOOTER PAGE */
 
-.footer-page{
+.main-footer{
     background-color: var(--dark-blue);
 }
 
@@ -78,7 +78,7 @@ a{
 
 
 .debug header [class^='col-'],
-.debug .info-section [class^='col-'],
-.debug footer [class^='col-']{
+.debug .header-footer [class^='col-'],
+.debug .main-footer [class^='col-']{
     border: 2px solid white;
 }
