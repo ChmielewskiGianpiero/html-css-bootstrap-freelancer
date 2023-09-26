@@ -37,4 +37,14 @@
     .star-icon-light:after{
         width: 10%;
     }
+
+    .star-icon-dark:before{
+        width: 10%;
+    }
+    
+    .star-icon-dark:after{
+        width: 10%;
+    }
 }
+
+

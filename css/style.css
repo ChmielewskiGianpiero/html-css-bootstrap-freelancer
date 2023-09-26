@@ -17,6 +17,10 @@ a{
     color: currentColor;
 }
 
+img{
+    width: 100%;
+}
+
 
 /* PALETTE COLOR */
 
@@ -24,6 +28,7 @@ a{
     --dark-blue:#2C3E50;
     --blue:#3A546D;
     --light:#FFFFFF;
+    --dark:#000000;
     --light-green: #1ABC9C;
     --grey: #707579;
 }
@@ -74,6 +79,29 @@ a{
 
 
 
+/* PORTFOLIO SECTION */
+
+.star-icon-dark:before{
+    content: "";
+    border: 1px solid var(--dark);
+    width: 15%;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+.star-icon-dark:after{
+    content: "";
+    border: 1px solid var(--dark);
+    width: 15%;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+.portfolio-section img{
+    border-radius: 10px;
+}
 /* ABOUT SECTION */
 
 .about-section{
@@ -106,7 +134,7 @@ a{
 }
 
 
-.debug header [class^='col-'],
+/* .debug header [class^='col-'], */
 .debug .header-footer [class^='col-'],
 .debug .main-footer [class^='col-']{
     border: 2px solid white;
